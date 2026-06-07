@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MAFIA</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+MAFIA
+</div>
+
+<nav>
+
+<a href="#inicio">Início</a>
+
+<a href="#criadores">Criadores</a>
+
+<a href="#sobre">Sobre</a>
+
+<a href="#conquistas">Conquistas</a>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="inicio">
+
+<div class="banner">
+
+<img src="https://cdn.discordapp.com/attachments/1432105374860705983/1512991807464669214/6A8B3155-2FF7-4B57-8CD8-B917B1C0AF13.png?ex=6a261aec&is=6a24c96c&hm=93643dac87c2f23a033d5ee09a58ea560b51aba5969835b783911b208882e645&" alt="Banner MAFIA">
+
+</div>
+
+<div class="hero-content">
+
+<span>BEM-VINDO À</span>
+
+<h1>MAFIA</h1>
+
+<p>
+Mais que uma facção.
+Uma família.
+</p>
+
+<div class="hero-buttons">
+
+<button id="btnConheca">
+Conheça
+</button>
+
+<button id="btnCriadores">
+Criadores
+</button>
+
+<button id="btnRedes">
+Rede Oficial
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CRIADORES OFICIAIS -->
+
+<section id="criadores">
+
+<div class="titulo">
+
+<h3>NOSSA FAMÍLIA</h3>
+
+<h1>CRIADORES OFICIAIS</h1>
+
+<p class="descricao-criadores">
+Somos os criadores responsáveis por trazer conteúdo, eventos e entretenimento para toda a comunidade MAFIA.
+</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card" onclick="abrirModal('marina')">
+
+<div class="card-foto">
+<img src="https://cdn.discordapp.com/attachments/1432105374860705983/1512993446703661222/Screenshot_2026-06-06-21-34-45-840_com.instagram.android2.jpg?ex=6a261c73&is=6a24caf3&hm=7ccc2e5f49f4fbd6dd5eb1d21d29d095c0df0d14a0ac187aaae2edfb0a48c5c8&" alt="Marina">
+</div>
+
+<h2>Marina</h2>
+
+<p>Criador de Conteúdo</p>
+
+<span>Clique para ver perfil</span>
+
+</div>
+
+<div class="card" onclick="abrirModal('kael')">
+
+<div class="card-foto">
+<img src="https://cdn.discordapp.com/attachments/1432105374860705983/1512991807464669214/6A8B3155-2FF7-4B57-8CD8-B917B1C0AF13.png" alt="Kael">
+</div>
+
+<h2>Kael</h2>
+
+<p>Criador de Conteúdo</p>
+
+<span>Clique para ver perfil</span>
+
+</div>
+
+<div class="card" onclick="abrirModal('shadow')">
+
+<div class="card-foto">
+<img src="https://cdn.discordapp.com/attachments/1432105374860705983/1512991807464669214/6A8B3155-2FF7-4B57-8CD8-B917B1C0AF13.png" alt="Shadow">
+</div>
+
+<h2>Shadow</h2>
+
+<p>Criador de Conteúdo</p>
+
+<span>Clique para ver perfil</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SOBRE -->
+
+<section id="sobre">
+
+<h1>Sobre a MAFIA</h1>
+
+<p>
+
+Somos uma comunidade focada em criar experiências únicas dentro do jogo. 
+Através de eventos épicos, disputas acirradas e muita diversão, 
+construímos uma família حقيقية.
+
+Aqui, todos são bem-vindos e têm espaço para brilhar.
+</p>
+
+</section>
+
+<!-- CONQUISTAS -->
+
+<section id="conquistas">
+
+<h1>Conquistas</h1>
+
+<div class="conquistas">
+
+<div class="conquista">
+
+🏆 Maior evento já realizado
+
+</div>
+
+<div class="conquista">
+
+🏆 + de 50 membros ativos
+
+</div>
+
+<div class="conquista">
+
+🏆 Comunidadе consolidada
+
+</div>
+
+<div class="conquista">
+
+🏆 Referência no cenário
+
+</div>
+
+</div>
+
+</section>
+
+<!-- RODAPÉ -->
+
+<footer>
+
+<h2>MAFIA</h2>
+
+<p>
+Coletivo • Movimento • Família
+</p>
+
+<button id="btnRedesFooter">
+Rede Oficial
+</button>
+
+</footer>
+
+<!-- MODAL PERFIL -->
+
+<div class="modal" id="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="fecharModal()">
+
+&times;
+
+</span>
+
+<div id="modalBody">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MODAL REDES -->
+
+<div class="modal" id="modalRedes">
+
+<div class="modal-content">
+
+<span class="close" onclick="fecharRedes()">
+
+&times;
+
+</span>
+
+<h2>Rede Oficial</h2>
+
+<div class="links-redes">
+
+<a href="#">Instagram</a>
+
+<a href="#">Discord</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">YouTube</a>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
