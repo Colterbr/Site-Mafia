@@ -269,13 +269,9 @@ padding:100px 8%;
 }
 
 .cards{
-
-display:grid;
-
-grid-template-columns:
-repeat(auto-fit,minmax(220px,1fr));
-
-gap:20px;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:25px;
 
 }
 
@@ -578,7 +574,7 @@ justify-content:center;
 .modal-foto img{
 
 width:100%;
-height:100%;
+height:180%;
 object-fit:contain;
 object-position:center;
 
@@ -678,5 +674,70 @@ transition:.3s;
 .social-user a:hover{
 
 background:var(--roxo);
+
+}
+
+@media (max-width: 1024px){
+
+    .cards{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+    .hero-content h1{
+        font-size:70px;
+    }
+
+    .titulo h1,
+    #sobre h1,
+    #conquistas h1{
+        font-size:40px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    nav{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .banner{
+        height:220px;
+    }
+
+    .hero-content h1{
+        font-size:50px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .titulo h1,
+    #sobre h1,
+    #conquistas h1{
+        font-size:32px;
+    }
+
+    .modal-content{
+        width:95%;
+        padding:25px;
+    }
 
 }
