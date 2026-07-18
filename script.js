@@ -21,8 +21,8 @@ const perfis = {
         tiktok: "https://www.tiktok.com/@lais_dorman"
     },
 
-    Colter: {
-        nome: "Colter",
+    Morgana: {
+        nome: "morgana",
         cargo: "Conhecida por muitos. Esquecida por ninguém.",
         foto: "criadores/Colter.png",
         bio: "Morgana se tornou um dos rostos mais reconhecidos da Mafia. Com presença marcante, postura impecável e decisões estratégicas, conquistou respeito dentro e fora da facção. Para muitos ela é apenas Morgana. Para quem conhece sua história, ela sempre será a Lady Dimitrescu.",
